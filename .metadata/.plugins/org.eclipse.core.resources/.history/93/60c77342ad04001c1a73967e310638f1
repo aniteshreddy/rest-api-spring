@@ -1,0 +1,11 @@
+package com.anitesh.persistance;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.anitesh.bean.MovieBean;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MovieDao extends JpaRepository<MovieBean, Integer> {
+
+}

@@ -1,0 +1,5 @@
+package com.anitesh.service;
+
+public interface RatingServiceImpl {
+	public int getRatingbyUserId(int id);
+}

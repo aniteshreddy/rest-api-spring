@@ -1,0 +1,23 @@
+package com.anitesh.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.anitesh.bean.MovieBean;
+
+@Service
+public class CatalogueService {
+	@Autowired
+	RestTemplate restTemplate;
+	
+	public List<MovieBean> getRatingById(int id){
+		
+		
+		
+		return  restTemplate.getForObject("http://localhost:8084/rating/"+id, List<MovieBean.class>);
+		
+	}
+}

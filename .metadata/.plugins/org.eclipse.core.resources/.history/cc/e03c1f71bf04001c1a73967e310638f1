@@ -1,0 +1,7 @@
+package com.anitesh.service;
+
+import com.anitesh.bean.RatingBean;
+
+public interface RatingService {
+	public RatingBean getRatingbyUserId(int id);
+}

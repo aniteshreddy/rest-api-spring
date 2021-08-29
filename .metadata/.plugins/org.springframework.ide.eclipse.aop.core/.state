@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="e0388781-8cd3-4cc9-9fef-0ea100cab8b8"/>
+<aop-project name="RatingService"/>
+<aop-project name="CatalogueService"/>
+<aop-project name="RestApiConsumer"/>
+<aop-project name="MovieService"/>
+</aop-reference-model>

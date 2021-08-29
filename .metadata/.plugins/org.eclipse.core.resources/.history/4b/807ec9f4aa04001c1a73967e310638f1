@@ -1,0 +1,13 @@
+package com.anitesh.bean;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@Entity
+@Table(name="movie")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+public class MovieBean {
+	
+}

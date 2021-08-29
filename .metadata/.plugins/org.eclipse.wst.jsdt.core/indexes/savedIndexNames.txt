@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+/data/eclipse-rest-api/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+180944869.index
+4105082293.index
+3595181165.index
+2218289236.index
+1435049085.index
+2972130079.index
+1861346780.index
+2494676054.index
+2252191588.index
+2004681256.index
+245405403.index

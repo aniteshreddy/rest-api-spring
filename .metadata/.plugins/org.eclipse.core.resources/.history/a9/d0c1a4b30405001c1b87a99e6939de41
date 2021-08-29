@@ -1,0 +1,13 @@
+package com.anitesh.service;
+
+import com.anitesh.bean.MovieRatingBean;
+
+public class ConsumerServiceImpl implements ConsumerService {
+
+	@Override
+	public MovieRatingBean[] getMovieRatingByUserId(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

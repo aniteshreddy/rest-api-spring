@@ -1,0 +1,30 @@
+package com.anitesh.bean;
+
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class RatingBean {
+	
+
+	private int ratingId;
+	private int movieId;
+	private int userId;
+	private int rating;
+	public RatingBean(int movieId, int userId, int rating) {
+		super();
+		this.movieId = movieId;
+		this.userId = userId;
+		this.rating = rating;
+	}
+	
+	
+	
+}

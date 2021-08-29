@@ -1,0 +1,13 @@
+package com.anitesh.service;
+
+import com.anitesh.bean.RatingBean;
+
+public class RatingServiceImp implements RatingService{
+
+	@Override
+	public RatingBean getRatingbyUserId(int id) {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+</head>
+<body>
+	<h1>Welcome User</h1>
+	<form action="#" th:action="@{./user-reviews}" method="post">
+
+		Enter User ID :<input type="text" name="userId"> <br>
+		<br> <input type="submit" value="Get Reviews">
+	</form>
+</body>
+</html>

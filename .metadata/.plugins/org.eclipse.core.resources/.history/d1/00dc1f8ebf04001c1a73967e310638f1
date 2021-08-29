@@ -1,0 +1,19 @@
+package com.anitesh.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.anitesh.bean.RatingBean;
+
+
+@Service
+public class RatingServiceImp implements RatingService{
+
+	@Override
+	public List<RatingBean> getRatingbyUserId(int id) {
+		
+		return null;
+	}
+
+}
